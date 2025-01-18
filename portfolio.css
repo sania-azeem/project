@@ -42,9 +42,10 @@ padding: 10px 0;
 font-style: italic;
 }
 .navbar {
-            display: flex;
             justify-content: space-between;
             align-items: center;
+           display: flex;
+
         }
 
         .navbar ul {
