@@ -1,0 +1,195 @@
+.home {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.home img {
+  width: 600px;
+  height: 400px;
+}
+
+.home-content {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.home h2 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  font-style: italic;
+  color: #090909;
+}
+ body {
+ font-family: Arial, sans-serif;
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ background-color: #f4f4f4;
+}
+
+.container {
+ width: 90%;
+ margin-top:70px;
+ text-align:center;   
+ }
+.header {
+background-color: #e13cb8;
+color: black;
+padding: 10px 0;
+font-style: italic;
+}
+.navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        .navbar ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .sticky {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 999;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: #efbae9;
+            ;
+        }
+        
+.about, .skills {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-content {
+  display: flex;
+  justify-content:center;
+  gap: 20px;
+  align-items: center;
+  margin: 60px;
+}
+
+.profile-image img {
+  width: 200px;
+  height: auto;
+  border-radius: 8px;
+}
+
+ .section {
+            padding: 50px 0;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 32px;
+            margin-bottom: 30px;
+        }
+
+        .service-cards, .portfolio-grid {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .service-card, .portfolio-item {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .service-card h3, .portfolio-item h3 {
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+     .portfolio-item img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .fade-in {
+            transition: opacity 0.6s ease-out;
+        }
+
+        .fade-in.visible {
+            opacity: 1;
+        }
+        #contact-form input, #contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        #contact-form button {
+            padding: 15px 30px;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        #contact-form button:hover {
+            background-color: #555;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .modal {
+            display: none; 
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            justify-content: center; 
+            align-items: center;
+            z-index: 1000;
+        }
+
+        .modal-content {
+            position: relative;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+        }
+
+        .close-modal {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-size: 30px;
+            color: black;
+            cursor: pointer;
+        }
+
+        .close-modal:hover {
+            color: red;
+        }
+    

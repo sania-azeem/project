@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>   
+<link rel="stylesheet" href="portfolio.css">
+   
+</head>
+<body>
+    <header class="header">
+        <div class="navbar">
+            <div class="logo">
+                <h2>My Portfolio</h2>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+     <section class="home">
+      <img src="sania.jpg" alt="Home Image">
+      <div class="home-content">
+        <h2>Sania Rafique</h2>
+      </div>
+    </section>
+
+    <section id="about" class="section fade-in">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hi, I'm a web developer with a passion for creating beautiful and functional websites from Pakistan. I make website through html,Css and javascript.</p>
+        </div>
+         <div class="about-content">
+      <div class="profile-image">
+        <img src="sania.jpg" alt="Profile Picture">
+      </div>
+      
+        <ul class="info">
+          <li><strong>Birthday:</strong> 23 Feb 1996</li>
+          <li><strong>Phone:</strong> +92304-5532121</li>
+          <li><strong>City:</strong> Lahore, Pakistan</li>
+          <li><strong>Age:</strong> 29</li>
+          <li><strong>Degree:</strong> Master</li>
+          <li><strong>Email:</strong> saniarafique2121@gmail.com</li>
+          <li><strong>Freelance:</strong> Available</li>
+        </ul>
+      </div>
+    </div>
+    </section>
+
+
+    <section id="services" class="section fade-in">
+        <div class="container">
+            <h2>Services</h2>
+            <div class="service-cards">
+                <div class="service-card fade-in">
+                    <h3>Web Development</h3>
+                    <p>Building responsive and user-friendly websites.</p>
+                </div>
+                <div class="service-card fade-in">
+                    <h3>App Development</h3>
+                    <p>Creating mobile applications for iOS and Android.</p>
+                </div>
+                <div class="service-card fade-in">
+                    <h3>UI/UX Design</h3>
+                    <p>Designing sleek and user-friendly interfaces.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="portfolio" class="section fade-in">
+        <div class="container">
+            <h2>My Work</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item fade-in">
+                    <img src="project1.jpg" alt="Project 1">
+                    <h3>Project 1</h3>
+                </div>
+                <div class="portfolio-item fade-in">
+                    <img src="project2.jpg" alt="Project 2">
+                    <h3>Project 2</h3>
+                </div>
+                <div class="portfolio-item fade-in">
+                    <img src="project3.jpg" alt="Project 3">
+                    <h3>Project 3</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="contact" class="section fade-in">
+        <div class="container">
+            <h2>Contact</h2>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 My Portfolio</p>
+        </div>
+    </footer>
+
+    <div class="modal">
+        <div class="modal-content">
+            <img src="profile.jpg" alt="Placeholder Image">
+            <span class="close-modal">&times;</span>
+        </div>
+    </div>
+    
+    <script src="portfolio.js"></script>
+
+</body>
